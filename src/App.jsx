@@ -193,10 +193,18 @@ function HeroSection() {
           {text}<span className="animate-pulse">|</span>
         </p>
         <div className="flex flex-wrap justify-center gap-4">
-          <a href="/karun-Portfolio/Karun Kumar Somu - Resume.pdf" target="_blank" rel="noopener noreferrer"
-            className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-500 transition-colors shadow-lg">
+
+          {/* Resume button - opens PDF in new tab */}
+          <a
+            href="/karun-Portfolio/FullStack_Developer_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-500 transition-colors shadow-lg"
+          >
             📄 View Resume
           </a>
+
+          {/* GitHub */}
           <a href="https://github.com/karunkumarsomu321-bot" target="_blank" rel="noopener noreferrer"
             className="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors flex items-center gap-2">
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -204,7 +212,9 @@ function HeroSection() {
             </svg>
             GitHub
           </a>
-          <a href="https://linkedin.com/in/karun-kumar-somu" target="_blank" rel="noopener noreferrer"
+
+          {/* LinkedIn - updated */}
+          <a href="https://www.linkedin.com/in/karun-k-0843a5422" target="_blank" rel="noopener noreferrer"
             className="border border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors flex items-center gap-2">
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
               <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
