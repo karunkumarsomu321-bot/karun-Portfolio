@@ -432,7 +432,7 @@ function App() {
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 { icon: "📍", label: "Location", value: "Maryland, United States" },
-                { icon: "📞", label: "Phone", value: "+1 (943) 238-4119" },
+                { icon: "📞", label: "Phone", value: "+1 (443) 998-4119" },
                 { icon: "✉️", label: "Email", value: "Karunkumarsomu1228@gmail.com" },
               ].map(({ icon, label, value }) => (
                 <div key={label} className="flex items-center gap-4">
